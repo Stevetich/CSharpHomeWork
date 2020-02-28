@@ -9,3 +9,14 @@ C:\Users\Administrator\source\repos\CalculatorByConsole\obj\Debug\netcoreapp3.1\
 C:\Users\Administrator\source\repos\CalculatorByConsole\obj\Debug\netcoreapp3.1\CalculatorByConsole.AssemblyInfo.cs
 C:\Users\Administrator\source\repos\CalculatorByConsole\obj\Debug\netcoreapp3.1\CalculatorByConsole.dll
 C:\Users\Administrator\source\repos\CalculatorByConsole\obj\Debug\netcoreapp3.1\CalculatorByConsole.pdb
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\bin\Debug\netcoreapp3.1\CalculatorByConsole.exe
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\bin\Debug\netcoreapp3.1\CalculatorByConsole.deps.json
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\bin\Debug\netcoreapp3.1\CalculatorByConsole.runtimeconfig.json
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\bin\Debug\netcoreapp3.1\CalculatorByConsole.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\bin\Debug\netcoreapp3.1\CalculatorByConsole.dll
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\bin\Debug\netcoreapp3.1\CalculatorByConsole.pdb
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\obj\Debug\netcoreapp3.1\CalculatorByConsole.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\obj\Debug\netcoreapp3.1\CalculatorByConsole.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\obj\Debug\netcoreapp3.1\CalculatorByConsole.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\obj\Debug\netcoreapp3.1\CalculatorByConsole.dll
+C:\Users\Administrator\Desktop\CSharpHomeWork\CalculatorByConsole\obj\Debug\netcoreapp3.1\CalculatorByConsole.pdb
