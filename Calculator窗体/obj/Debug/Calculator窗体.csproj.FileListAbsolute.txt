@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\Calculator窗体\obj\Debug\Calculator窗体.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Calculator窗体\obj\Debug\Calculator窗体.Form1.resources
+C:\Users\Administrator\source\repos\Calculator窗体\obj\Debug\Calculator窗体.Properties.Resources.resources
+C:\Users\Administrator\source\repos\Calculator窗体\obj\Debug\Calculator窗体.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Calculator窗体\bin\Debug\Calculator窗体.exe.config
+C:\Users\Administrator\source\repos\Calculator窗体\bin\Debug\Calculator窗体.exe
+C:\Users\Administrator\source\repos\Calculator窗体\bin\Debug\Calculator窗体.pdb
+C:\Users\Administrator\source\repos\Calculator窗体\obj\Debug\Calculator窗体.exe
+C:\Users\Administrator\source\repos\Calculator窗体\obj\Debug\Calculator窗体.pdb
