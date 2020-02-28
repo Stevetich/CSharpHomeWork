@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\CalculatorByConsole\\CalculatorByConsole.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CSharpHomeWork\\CalculatorByConsole\\CalculatorByConsole.csproj",
       "projectName": "CalculatorByConsole",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\CalculatorByConsole\\CalculatorByConsole.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\CSharpHomeWork\\CalculatorByConsole\\CalculatorByConsole.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\CalculatorByConsole\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\CSharpHomeWork\\CalculatorByConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
