@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\埃氏筛法\bin\Debug\netcoreapp3.1\埃氏筛法.exe
+C:\Users\Administrator\source\repos\埃氏筛法\bin\Debug\netcoreapp3.1\埃氏筛法.deps.json
+C:\Users\Administrator\source\repos\埃氏筛法\bin\Debug\netcoreapp3.1\埃氏筛法.runtimeconfig.json
+C:\Users\Administrator\source\repos\埃氏筛法\bin\Debug\netcoreapp3.1\埃氏筛法.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\埃氏筛法\bin\Debug\netcoreapp3.1\埃氏筛法.dll
+C:\Users\Administrator\source\repos\埃氏筛法\bin\Debug\netcoreapp3.1\埃氏筛法.pdb
+C:\Users\Administrator\source\repos\埃氏筛法\obj\Debug\netcoreapp3.1\埃氏筛法.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\埃氏筛法\obj\Debug\netcoreapp3.1\埃氏筛法.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\埃氏筛法\obj\Debug\netcoreapp3.1\埃氏筛法.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\埃氏筛法\obj\Debug\netcoreapp3.1\埃氏筛法.dll
+C:\Users\Administrator\source\repos\埃氏筛法\obj\Debug\netcoreapp3.1\埃氏筛法.pdb

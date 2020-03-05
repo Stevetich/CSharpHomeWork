@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\FindPrimeNumber\\FindPrimeNumber.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\CSharpHomeWork\\Week2\\FindPrimeNumber\\FindPrimeNumber.csproj",
       "projectName": "FindPrimeNumber",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\FindPrimeNumber\\FindPrimeNumber.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\CSharpHomeWork\\Week2\\FindPrimeNumber\\FindPrimeNumber.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\FindPrimeNumber\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\CSharpHomeWork\\Week2\\FindPrimeNumber\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
