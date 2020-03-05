@@ -9,3 +9,14 @@ C:\Users\Administrator\source\repos\FindPrimeNumber\obj\Debug\netcoreapp3.1\Find
 C:\Users\Administrator\source\repos\FindPrimeNumber\obj\Debug\netcoreapp3.1\FindPrimeNumber.AssemblyInfo.cs
 C:\Users\Administrator\source\repos\FindPrimeNumber\obj\Debug\netcoreapp3.1\FindPrimeNumber.dll
 C:\Users\Administrator\source\repos\FindPrimeNumber\obj\Debug\netcoreapp3.1\FindPrimeNumber.pdb
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\bin\Debug\netcoreapp3.1\FindPrimeNumber.exe
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\bin\Debug\netcoreapp3.1\FindPrimeNumber.deps.json
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\bin\Debug\netcoreapp3.1\FindPrimeNumber.runtimeconfig.json
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\bin\Debug\netcoreapp3.1\FindPrimeNumber.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\bin\Debug\netcoreapp3.1\FindPrimeNumber.dll
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\bin\Debug\netcoreapp3.1\FindPrimeNumber.pdb
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\obj\Debug\netcoreapp3.1\FindPrimeNumber.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\obj\Debug\netcoreapp3.1\FindPrimeNumber.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\obj\Debug\netcoreapp3.1\FindPrimeNumber.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\obj\Debug\netcoreapp3.1\FindPrimeNumber.dll
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week2\寻找素因子\FindPrimeNumber\obj\Debug\netcoreapp3.1\FindPrimeNumber.pdb

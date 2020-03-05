@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\数组操作\bin\Debug\netcoreapp3.1\数组操作.exe
+C:\Users\Administrator\source\repos\数组操作\bin\Debug\netcoreapp3.1\数组操作.deps.json
+C:\Users\Administrator\source\repos\数组操作\bin\Debug\netcoreapp3.1\数组操作.runtimeconfig.json
+C:\Users\Administrator\source\repos\数组操作\bin\Debug\netcoreapp3.1\数组操作.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\数组操作\bin\Debug\netcoreapp3.1\数组操作.dll
+C:\Users\Administrator\source\repos\数组操作\bin\Debug\netcoreapp3.1\数组操作.pdb
+C:\Users\Administrator\source\repos\数组操作\obj\Debug\netcoreapp3.1\数组操作.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\数组操作\obj\Debug\netcoreapp3.1\数组操作.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\数组操作\obj\Debug\netcoreapp3.1\数组操作.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\数组操作\obj\Debug\netcoreapp3.1\数组操作.dll
+C:\Users\Administrator\source\repos\数组操作\obj\Debug\netcoreapp3.1\数组操作.pdb

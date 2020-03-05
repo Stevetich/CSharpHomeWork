@@ -7,9 +7,21 @@ namespace FindPrimeNumber
     {
         static void Main(string[] args)
         {
-            Calculator calculator = new Calculator(100);
-            calculator.findPrime();
-            calculator.findThePrimeFactor();
+            try
+            {
+                Console.WriteLine("请输入一个数字：");
+                int n = Convert.ToInt16(Console.ReadLine());
+                Calculator calculator = new Calculator(n);
+                calculator.findPrime();
+                calculator.findThePrimeFactor();
+            }
+            catch
+            {
+                Console.WriteLine("程序出现了错误");
+            }
+            
+            
+            
         }
     }
 
@@ -62,6 +74,7 @@ namespace FindPrimeNumber
 
         public void findThePrimeFactor()
         {
+            Console.WriteLine(num + "的所有素因子为：");
             while (true) 
             {
                 foreach (int ele in array)
