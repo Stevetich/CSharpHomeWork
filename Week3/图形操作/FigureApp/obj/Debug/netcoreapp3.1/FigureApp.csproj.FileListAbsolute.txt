@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\FigureApp\bin\Debug\netcoreapp3.1\FigureApp.exe
+C:\Users\Administrator\source\repos\FigureApp\bin\Debug\netcoreapp3.1\FigureApp.deps.json
+C:\Users\Administrator\source\repos\FigureApp\bin\Debug\netcoreapp3.1\FigureApp.runtimeconfig.json
+C:\Users\Administrator\source\repos\FigureApp\bin\Debug\netcoreapp3.1\FigureApp.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\FigureApp\bin\Debug\netcoreapp3.1\FigureApp.dll
+C:\Users\Administrator\source\repos\FigureApp\bin\Debug\netcoreapp3.1\FigureApp.pdb
+C:\Users\Administrator\source\repos\FigureApp\obj\Debug\netcoreapp3.1\FigureApp.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\FigureApp\obj\Debug\netcoreapp3.1\FigureApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\FigureApp\obj\Debug\netcoreapp3.1\FigureApp.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\FigureApp\obj\Debug\netcoreapp3.1\FigureApp.dll
+C:\Users\Administrator\source\repos\FigureApp\obj\Debug\netcoreapp3.1\FigureApp.pdb
