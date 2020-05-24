@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\NewOrderApp\bin\Debug\NewOrderApp.exe.config
+C:\Users\Administrator\source\repos\NewOrderApp\bin\Debug\NewOrderApp.exe
+C:\Users\Administrator\source\repos\NewOrderApp\bin\Debug\NewOrderApp.pdb
+C:\Users\Administrator\source\repos\NewOrderApp\obj\Debug\NewOrderApp.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\NewOrderApp\obj\Debug\NewOrderApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\NewOrderApp\obj\Debug\NewOrderApp.exe
+C:\Users\Administrator\source\repos\NewOrderApp\obj\Debug\NewOrderApp.pdb

@@ -5,3 +5,10 @@ C:\Users\Administrator\source\repos\NewOrderApp\obj\Debug\NewOrderApp.csproj.Cor
 C:\Users\Administrator\source\repos\NewOrderApp\obj\Debug\NewOrderApp.exe
 C:\Users\Administrator\source\repos\NewOrderApp\obj\Debug\NewOrderApp.pdb
 C:\Users\Administrator\source\repos\NewOrderApp\obj\Debug\NewOrderApp.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week5\NewOrderApp\bin\Debug\NewOrderApp.exe.config
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week5\NewOrderApp\bin\Debug\NewOrderApp.exe
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week5\NewOrderApp\bin\Debug\NewOrderApp.pdb
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week5\NewOrderApp\obj\Debug\NewOrderApp.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week5\NewOrderApp\obj\Debug\NewOrderApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week5\NewOrderApp\obj\Debug\NewOrderApp.exe
+C:\Users\Administrator\Desktop\CSharpHomeWork\Week5\NewOrderApp\obj\Debug\NewOrderApp.pdb

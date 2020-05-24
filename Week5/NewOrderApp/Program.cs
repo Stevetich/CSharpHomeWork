@@ -39,21 +39,34 @@ namespace NewOrderApp
             os.AddOrder(o3);
             os.Sort();
 
+            Console.WriteLine("-----展示-----");
             Console.Write(os);
+            Console.WriteLine("----------------");
+            Console.WriteLine();
 
             //查找订单ID为2的订单
+            Console.WriteLine("-----按ID查询-----");
             Console.Write(os.GetOrder(2));
+            Console.WriteLine("----------------");
             Console.WriteLine();
 
             //查找顾客张三的所有订单
+            Console.WriteLine("-----按顾客查询-----");
             os.QueryByCustomerName("张三").ForEach(o => Console.Write(o));
+            Console.WriteLine("----------------");
             Console.WriteLine();
 
             //删除2号订单
+            Console.WriteLine("-----删除订单-----");
             os.RemoveOrder(2);
+            Console.WriteLine("----------------");
             Console.WriteLine();
 
+            Console.WriteLine("-----展示-----");
             Console.Write(os);
+            Console.WriteLine("----------------");
+            Console.WriteLine();
+
             Console.ReadLine();
         }
     }
