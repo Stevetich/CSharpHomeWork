@@ -1,9 +1,0 @@
-C:\Users\Administrator\source\repos\OrderAppByForm\obj\Debug\OrderAppByForm.Form1.resources
-C:\Users\Administrator\source\repos\OrderAppByForm\obj\Debug\OrderAppByForm.Properties.Resources.resources
-C:\Users\Administrator\source\repos\OrderAppByForm\obj\Debug\OrderAppByForm.csproj.GenerateResource.cache
-C:\Users\Administrator\source\repos\OrderAppByForm\bin\Debug\OrderAppByForm.exe.config
-C:\Users\Administrator\source\repos\OrderAppByForm\bin\Debug\OrderAppByForm.exe
-C:\Users\Administrator\source\repos\OrderAppByForm\bin\Debug\OrderAppByForm.pdb
-C:\Users\Administrator\source\repos\OrderAppByForm\obj\Debug\OrderAppByForm.exe
-C:\Users\Administrator\source\repos\OrderAppByForm\obj\Debug\OrderAppByForm.pdb
-C:\Users\Administrator\source\repos\OrderAppByForm\obj\Debug\OrderAppByForm.csprojAssemblyReference.cache
