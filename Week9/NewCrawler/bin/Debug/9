@@ -1,0 +1,867 @@
+﻿<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+      <link rel="stylesheet" href="/dist/app.min.css">
+    
+    
+      <script type="text/javascript" src="/dist/app.min.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Find out if you’ve been part of a data breach with Firefox Monitor. Sign up for alerts about future breaches and get tips to keep your accounts safe." />
+    <meta name="theme-color" content="#002275" />
+    <meta property="og:title" content="Find out if you’ve been part of a data breach" />
+    <meta property="og:description" content="Have your online accounts been exposed in a data breach?" />
+    <meta property="og:url" content="https://monitor.firefox.com" />
+    <meta property="og:image" content="https://monitor.firefox.com/img/firefox-monitor.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Firefox Monitor" />
+    <meta name="twitter:description" content="Most people have about 100 online accounts. Have any of yours been exposed in a data breach? Find out." />
+    <title>Firefox Monitor</title>
+    <link rel="icon" href="/img/favicons/favicon-64.png" sizes="64x64" />
+    <link rel="icon" href="/img/favicons/favicon-128.png" sizes="128x128" />
+    <link rel="icon" href="/img/favicons/favicon-256.png" sizes="256x256" />
+  </head>
+  <body data-server-url="https://monitor.firefox.com"
+data-logos-origin="https://monitor.cdn.mozilla.net"
+data-fxa-enabled="fxa-enabled"
+data-fxa-address=https://accounts.firefox.com/settings
+data-utm_source="monitor.firefox.com"
+
+  data-signed-in-user="false"
+ data-bento-app-id="fx-monitor" >
+    <header id="header">
+          <div id="navigation-wrapper">
+            <section class="row-full-width fxm-branding">
+              <a class="flx-cntr fx-monitor-logo-wrapper" href="/" aria-label="Home" data-ga-link="" data-event-category="Internal Link" data-event-label="Fx-Monitor-Logo">
+                <div class="sprite fx-monitor-logo"><!--Firefox Monitor logo--></div>
+                <div class="fx-monitor-logotype"></div>
+              </a>
+              <nav class="desktop-menu flx-auto flx-cntr jst-cntr">
+                  <a class="nav-link " data-ga-link="" data-event-category="Internal Link" data-event-label="Home" href="https://monitor.firefox.com/"><span>Home</span></a>
+                  <a class="nav-link " data-ga-link="" data-event-category="Internal Link" data-event-label="Breaches" href="https://monitor.firefox.com/breaches"><span>Breaches</span></a>
+                  <a class="nav-link  active-link " data-ga-link="" data-event-category="Internal Link" data-event-label="Security Tips" href="https://monitor.firefox.com/security-tips"><span>Security Tips</span></a>
+              </nav>
+              <div class="flx flx-end flx-cntr bento-sign-up">
+                <firefox-apps></firefox-apps>
+                  <button id="sign-in-btn" class="open-oauth sign-in btn-white btn-big btn-transparent" data-entrypoint="fx-monitor-sign-in-button" data-flow-id="" data-flow-begin-time="" data-event-category="Sign In Button">Sign In</button>
+              </div>
+            </section>
+            <!--mobile navigation-->
+            <section class="mobile-nav show-mobile">
+              <span class="nav-link drop-down-menu">Menu <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg></span>
+              <nav class="mobile-menu flx-cntr row-full-width">
+                  <a class="nav-link " data-ga-link="" data-event-category="Internal Link" data-event-label="Home" href="https://monitor.firefox.com/"><span>Home</span></a>
+                  <a class="nav-link " data-ga-link="" data-event-category="Internal Link" data-event-label="Breaches" href="https://monitor.firefox.com/breaches"><span>Breaches</span></a>
+                  <a class="nav-link  active-link " data-ga-link="" data-event-category="Internal Link" data-event-label="Security Tips" href="https://monitor.firefox.com/security-tips"><span>Security Tips</span></a>
+              </nav>
+            </section>
+          </div>
+        </header>      <main class="container clear-header security-tips bg-dark" data-page-label="Security Tips">
+  <div class="row jst-cntr">
+    <div class="col-12 no-vertical-padding">
+      <h2 class="top-headline mw-550">
+        Security tips to protect yourself from hackers
+      </h2>
+      <ul class="security-tip-list flx">
+          <li class="security-tip-list-item flx">
+            <div class="article-icon how-hackers-work"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><path fill="#ffffff" d="M8 0C4.3 0 2 2.107 2 5.5c0 2.372 2.065 4.268 3 5V14c0 1.476 1.616 2 3 2s3-.524 3-2v-3.5c.935-.736 3-2.632 3-5C14 2.107 11.7 0 8 0zm1 12H7v-1h2zm-1 2a3.086 3.086 0 0 1-1-.172V13h2v.828A3.047 3.047 0 0 1 8 14zm1.445-4.832A1 1 0 0 0 9 10H7a1 1 0 0 0-.444-.831C5.845 8.691 4 7.1 4 5.5 4 2.607 6.175 2 8 2s4 .607 4 3.5c0 1.6-1.845 3.191-2.555 3.668z"></path></svg></div>
+            <div class="flx flx-col">
+              <a class="security-tip-link flx how-hackers-work send-ga-ping" href="#how-hackers-work" data-event-category="Security Tips Links" data-event-action="Click" data-event-label="Understand how hackers work">Understand how hackers work<svg class="arrow-head-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="rgba(12, 12, 13, .8)" d="M6 14a1 1 0 0 1-.707-1.707L9.586 8 5.293 3.707a1 1 0 0 1 1.414-1.414l5 5a1 1 0 0 1 0 1.414l-5 5A1 1 0 0 1 6 14z"></path></svg></a>
+              <p class="security-tip-link-subhead">Protect your passwords from cyber criminals, since that’s what they care about most.</p>
+            </div>
+          </li>
+          <li class="security-tip-list-item flx">
+            <div class="article-icon after-breach"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="icon-inline">
+  <path d="M12.68 16.13c0 2.64 1.15 4.24 3.06 4.24s3.18-1.62 3.18-4.24-1.22-4.24-3.17-4.24-3.07 1.58-3.07 4.24M31 14.35c0 5.73-2.71 9.42-7.15 9.42-2.26 0-4-1.09-4.39-2.86h-.25a4.42 4.42 0 0 1-4.39 2.81c-3.78 0-6.32-3.08-6.32-7.7 0-4.42 2.5-7.45 6.14-7.45A4.56 4.56 0 0 1 19 11.16h.25V9h3.69v9.74c0 1.26.59 2.06 1.73 2.06 1.79 0 3-2.28 3-6.15C27.7 8 23.13 3.71 16.23 3.71S4.31 8.77 4.31 16.09c0 7.66 5.11 12.14 12.61 12.14a16.47 16.47 0 0 0 5-.64v2.92a19.18 19.18 0 0 1-5.24.67C7.44 31.18 1 25.41 1 16 1 7 7.27.82 16.36.82 25 .82 31 6.24 31 14.34" fill="#fff" fill-rule="evenodd"/>
+</svg></div>
+            <div class="flx flx-col">
+              <a class="security-tip-link flx after-breach send-ga-ping" href="#after-breach" data-event-category="Security Tips Links" data-event-action="Click" data-event-label="What to do after a data breach">What to do after a data breach<svg class="arrow-head-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="rgba(12, 12, 13, .8)" d="M6 14a1 1 0 0 1-.707-1.707L9.586 8 5.293 3.707a1 1 0 0 1 1.414-1.414l5 5a1 1 0 0 1 0 1.414l-5 5A1 1 0 0 1 6 14z"></path></svg></a>
+              <p class="security-tip-link-subhead">Lock down your accounts to keep your information out of the wrong hands.</p>
+            </div>
+          </li>
+          <li class="security-tip-list-item flx">
+            <div class="article-icon strong-passwords"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="icon-inline">
+  <path d="M27.77 10H3.92a4.08 4.08 0 0 0-4.07 4.09v3.7a4.09 4.09 0 0 0 4.07 4.08h23.85a4.1 4.1 0 0 0 4.08-4.08v-3.7A4.09 4.09 0 0 0 27.77 10zm-16.93 6.48a.2.2 0 0 1 .13.14.25.25 0 0 1 0 .19l-.51.85a.21.21 0 0 1-.15.11.24.24 0 0 1-.18-.05L9 16.89l.18 1.38a.26.26 0 0 1-.06.18.23.23 0 0 1-.17.08H8a.23.23 0 0 1-.17-.08.26.26 0 0 1-.06-.18l.18-1.39-1.13.85a.23.23 0 0 1-.18 0 .27.27 0 0 1-.16-.11L6 16.8a.24.24 0 0 1 .11-.32l1.29-.54-1.29-.56a.23.23 0 0 1-.11-.33l.5-.83a.21.21 0 0 1 .15-.11.19.19 0 0 1 .18 0l1.1.89-.18-1.38a.3.3 0 0 1 .06-.18.22.22 0 0 1 .19-.08h1a.22.22 0 0 1 .17.07.3.3 0 0 1 .06.18L9 15l1.12-.84a.23.23 0 0 1 .18 0 .19.19 0 0 1 .15.11l.48.85a.21.21 0 0 1 0 .19.25.25 0 0 1-.13.14l-1.29.53zm7.38 0a.2.2 0 0 1 .13.14.25.25 0 0 1 0 .19l-.51.85a.21.21 0 0 1-.15.11.24.24 0 0 1-.18-.05l-1.09-.83.18 1.38a.26.26 0 0 1-.06.18.23.23 0 0 1-.17.08h-1a.23.23 0 0 1-.17-.08.26.26 0 0 1-.06-.18l.18-1.39-1.13.85a.23.23 0 0 1-.18 0 .27.27 0 0 1-.16-.11l-.48-.86a.24.24 0 0 1 .11-.32l1.29-.54-1.29-.56a.23.23 0 0 1-.11-.33l.5-.83a.21.21 0 0 1 .15-.11.19.19 0 0 1 .18 0l1.12.84-.18-1.38a.3.3 0 0 1 .06-.18.22.22 0 0 1 .17-.07h1a.22.22 0 0 1 .17.07.3.3 0 0 1 .06.18L16.4 15l1.12-.84a.23.23 0 0 1 .18 0 .19.19 0 0 1 .15.11l.48.85a.21.21 0 0 1 0 .19.25.25 0 0 1-.13.14l-1.29.53zm7.38 0a.2.2 0 0 1 .13.14.21.21 0 0 1 0 .19l-.51.85a.21.21 0 0 1-.15.11.24.24 0 0 1-.18-.05l-1.09-.83.2 1.38a.26.26 0 0 1-.06.18.23.23 0 0 1-.17.08h-1a.23.23 0 0 1-.17-.08.26.26 0 0 1-.06-.18l.18-1.39-1.13.85a.23.23 0 0 1-.18 0 .31.31 0 0 1-.16-.11l-.48-.86a.24.24 0 0 1 .11-.32l1.29-.54-1.29-.56a.23.23 0 0 1-.11-.33l.5-.83a.21.21 0 0 1 .15-.11.19.19 0 0 1 .18 0l1.12.84-.18-1.38a.3.3 0 0 1 .06-.18.22.22 0 0 1 .17-.07h1a.22.22 0 0 1 .17.07.3.3 0 0 1 .06.18L23.78 15l1.12-.84a.23.23 0 0 1 .18 0 .19.19 0 0 1 .15.11l.48.85a.21.21 0 0 1 0 .19.25.25 0 0 1-.13.14l-1.29.53z" fill="#fff"/>
+</svg></div>
+            <div class="flx flx-col">
+              <a class="security-tip-link flx strong-passwords send-ga-ping" href="#strong-passwords" data-event-category="Security Tips Links" data-event-action="Click" data-event-label="How to create strong passwords">How to create strong passwords<svg class="arrow-head-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="rgba(12, 12, 13, .8)" d="M6 14a1 1 0 0 1-.707-1.707L9.586 8 5.293 3.707a1 1 0 0 1 1.414-1.414l5 5a1 1 0 0 1 0 1.414l-5 5A1 1 0 0 1 6 14z"></path></svg></a>
+              <p class="security-tip-link-subhead">Make your passwords strong, secure, and hard to guess.</p>
+            </div>
+          </li>
+          <li class="security-tip-list-item flx">
+            <div class="article-icon steps-to-protect"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16" fill="#ffffff"><path d="M8 0a7 7 0 0 0-7 7 1 1 0 0 0 2 0 5 5 0 0 1 10 0 8.24 8.24 0 0 1-1.14 4.28A5.75 5.75 0 0 0 11 14a1 1 0 0 0 2 0 3.91 3.91 0 0 1 .63-1.79A10.18 10.18 0 0 0 15 7a7 7 0 0 0-7-7z"></path><path d="M8 3a4 4 0 0 0-4 4 2 2 0 0 1-2 2 1 1 0 0 0 0 2 4 4 0 0 0 4-4 2 2 0 0 1 4 0 6.88 6.88 0 0 1-1.74 4.8 11 11 0 0 0-1.15 1.75 1 1 0 0 0 .44 1.34A.93.93 0 0 0 8 15a1 1 0 0 0 .89-.55 9.74 9.74 0 0 1 1-1.44A8.84 8.84 0 0 0 12 7a4 4 0 0 0-4-4z"></path><path d="M8 6a1 1 0 0 0-1 1c0 4.21-5.26 6-5.32 6.05a1 1 0 0 0-.63 1.27A1 1 0 0 0 2 15a1.25 1.25 0 0 0 .32 0C2.59 14.86 9 12.66 9 7a1 1 0 0 0-1-1z"></path></svg></div>
+            <div class="flx flx-col">
+              <a class="security-tip-link flx steps-to-protect send-ga-ping" href="#steps-to-protect" data-event-category="Security Tips Links" data-event-action="Click" data-event-label="Steps to take to protect your identity online">Steps to take to protect your online identity<svg class="arrow-head-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="rgba(12, 12, 13, .8)" d="M6 14a1 1 0 0 1-.707-1.707L9.586 8 5.293 3.707a1 1 0 0 1 1.414-1.414l5 5a1 1 0 0 1 0 1.414l-5 5A1 1 0 0 1 6 14z"></path></svg></a>
+              <p class="security-tip-link-subhead">Understand the most common threats and know what to look out for.</p>
+            </div>
+          </li>
+          <li class="security-tip-list-item flx">
+            <div class="article-icon five-myths"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><path d="M9.5 3s.428 2.43 1.249 3.251S14 7.5 14 7.5s-2.43.394-3.251 1.215S9.5 12 9.5 12s-.394-2.464-1.215-3.285S5 7.5 5 7.5s2.464-.428 3.285-1.249S9.5 3 9.5 3m0-2h-.014a2 2 0 0 0-1.96 1.68 7.536 7.536 0 0 1-.659 2.154 7.9 7.9 0 0 1-2.212.7 2 2 0 0 0 .029 3.945 7.733 7.733 0 0 1 2.183.658 7.74 7.74 0 0 1 .658 2.185A2 2 0 0 0 9.489 14H9.5a2 2 0 0 0 1.971-1.657 7.891 7.891 0 0 1 .7-2.209 7.566 7.566 0 0 1 2.154-.659 2 2 0 0 0 .027-3.944 7.694 7.694 0 0 1-2.181-.7 7.731 7.731 0 0 1-.7-2.181A2 2 0 0 0 9.5 1zM3 15.5a.5.5 0 0 1-.49-.421 3.047 3.047 0 0 0-.4-1.186 3.047 3.047 0 0 0-1.186-.4.5.5 0 0 1-.007-.986 3.147 3.147 0 0 0 1.192-.417 3.051 3.051 0 0 0 .4-1.171A.5.5 0 0 1 3 10.5a.5.5 0 0 1 .492.413 3.094 3.094 0 0 0 .417 1.179 3.142 3.142 0 0 0 1.178.416.5.5 0 0 1-.007.985 3.007 3.007 0 0 0-1.172.4 3.166 3.166 0 0 0-.416 1.192A.5.5 0 0 1 3 15.5zm-.5-11a.5.5 0 0 1-.49-.42 2.344 2.344 0 0 0-.265-.82 2.344 2.344 0 0 0-.82-.265.5.5 0 0 1-.007-.986 2.41 2.41 0 0 0 .827-.277A2.306 2.306 0 0 0 2.007.92.5.5 0 0 1 2.5.5a.5.5 0 0 1 .492.412 2.353 2.353 0 0 0 .278.818 2.372 2.372 0 0 0 .816.276.5.5 0 0 1-.007.985 2.306 2.306 0 0 0-.811.266 2.41 2.41 0 0 0-.277.827.5.5 0 0 1-.491.416z" fill="#ffffff"></path></svg></div>
+            <div class="flx flx-col">
+              <a class="security-tip-link flx five-myths send-ga-ping" href="#five-myths" data-event-category="Security Tips Links" data-event-action="Click" data-event-label="5 myths about password managers">5 myths about password managers<svg class="arrow-head-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="rgba(12, 12, 13, .8)" d="M6 14a1 1 0 0 1-.707-1.707L9.586 8 5.293 3.707a1 1 0 0 1 1.414-1.414l5 5a1 1 0 0 1 0 1.414l-5 5A1 1 0 0 1 6 14z"></path></svg></a>
+              <p class="security-tip-link-subhead">Learn how to avoid bad password habits that make a hacker’s work easy.</p>
+            </div>
+          </li>
+          <li class="security-tip-list-item flx">
+            <div class="article-icon next-steps"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="icon-inline">
+  <path d="M12.15 14.76a9.41 9.41 0 0 1 1.22-1.38c1.33-1.17 4.39-3 5.61-4.53C21.24 6 22.73 2.28 20.7.71c-2.27-1.76-6.54-.08-9 3.13C10.37 5.48 10.53 7 8.17 9.89l-.62.75a32.16 32.16 0 0 0 4.6 4.12zm-2.29 3.11c.46-.55.85-1.11 1.23-1.66a32.37 32.37 0 0 1-3.94-3.36q-.42-.42-.78-.81a16.12 16.12 0 0 0-1.49 2c-.64 1.05-1.41 3.19.34 4.53a3 3 0 0 0 4.28-.2 2.8 2.8 0 0 0 .36-.5zm17.29-2.35c-1.56-2-5.22-.53-8.1 1.72-1.56 1.22-3.35 4.26-4.52 5.59A9.12 9.12 0 0 1 13.18 24a31.67 31.67 0 0 0 4.08 4.58L18 28c2.85-2.35 4.4-2.19 6-3.46 3.22-2.54 4.9-6.76 3.15-9.02zm-15.43 9.57c-.55.38-1.1.77-1.65 1.22A3 3 0 0 0 9 30.44a2.47 2.47 0 0 0 .36.49c1.33 1.75 3.47 1 4.51.34a16.61 16.61 0 0 0 2-1.48c-.25-.23-.5-.48-.76-.74a31.77 31.77 0 0 1-3.39-3.96z" fill="#fff"/>
+</svg></div>
+            <div class="flx flx-col">
+              <a class="security-tip-link flx next-steps send-ga-ping" href="#next-steps" data-event-category="Security Tips Links" data-event-action="Click" data-event-label="Take further steps to protect your identity">Take further steps to protect your identity<svg class="arrow-head-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="rgba(12, 12, 13, .8)" d="M6 14a1 1 0 0 1-.707-1.707L9.586 8 5.293 3.707a1 1 0 0 1 1.414-1.414l5 5a1 1 0 0 1 0 1.414l-5 5A1 1 0 0 1 6 14z"></path></svg></a>
+              <p class="security-tip-link-subhead">Find out how to mitigate the risks of identity theft to prevent financial loss.</p>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+</main>
+<section class="container bg-light articles">
+  <div class="row">
+    <div class="col-9">
+      <section class="st-intro-wrap">
+          <p class="st-intro">Data breaches are becoming more common. Finding out you were part of one usually includes a laundry list compromised information, such as your password, username, and email address. What does that mean for your internet safety? What should you do? Learn how you can take control after a data breach and better protect your devices, online accounts, and personal data from cyber criminals.</p>
+      </section>
+
+        <div id="how-hackers-work" class="st-how-hackers-work article-wrapper">
+          <div class="ico how-hackers-work"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><path fill="#ffffff" d="M8 0C4.3 0 2 2.107 2 5.5c0 2.372 2.065 4.268 3 5V14c0 1.476 1.616 2 3 2s3-.524 3-2v-3.5c.935-.736 3-2.632 3-5C14 2.107 11.7 0 8 0zm1 12H7v-1h2zm-1 2a3.086 3.086 0 0 1-1-.172V13h2v.828A3.047 3.047 0 0 1 8 14zm1.445-4.832A1 1 0 0 0 9 10H7a1 1 0 0 0-.444-.831C5.845 8.691 4 7.1 4 5.5 4 2.607 6.175 2 8 2s4 .607 4 3.5c0 1.6-1.845 3.191-2.555 3.668z"></path></svg></div>
+          <span class="security-tip-subhead">Protect your passwords from cyber criminals, since that’s what they care about most.</span>
+          <h2 class="article-headline mw-500 how-hackers-work">Understand how hackers work</h2>
+              <p class="article-paragraph lead">
+                <span class="drop-cap">
+                  F
+                </span>
+                <span>orget about those hackers in movies trying to crack the code on someone’s computer to get their top-secret files. The hackers responsible for data breaches start by targeting companies, not specific individuals. They want to get data from as many people as possible so they can use, resell, or leverage it to make money. It all starts with getting your password.</span>
+              </p>
+
+            
+            
+      
+
+              <h3 class="article-subhead">It's not personal. Not at first.</h3>
+                                    <p class="article-paragraph">Hackers don’t really care whose personal information and credentials they can get, as long as they can get a lot of it. That’s why cyber criminals target massive companies with millions of users. These hackers look for a security weakness — the digital equivalent of leaving a door unlocked or window open. They only need to find one door or window to get inside. Then they steal or copy as much personal information as possible that lives in users’ online accounts.</p>
+                                    <p class="article-paragraph">Once they get your data, cyber criminals can start their real work. We don’t always know what they intend to do with the data, but usually they will find a way to profit from it. The effects to your online account might not be immediate. But they can be very serious.</p>
+            
+            
+      
+
+              <h3 class="article-subhead">All types of data can be valuable.</h3>
+                                    <p class="article-paragraph">Some data — like banking information, bank card numbers, government-issued ID numbers, and PIN numbers — is valuable because it can be used to steal the victim’s identity or withdraw money. Email addresses and passwords are also valuable because hackers can try them on other accounts. All sorts of data can be valuable in some way because it can be sold on the dark web for a profit.</p>
+            
+            
+      
+
+              <h3 class="article-subhead">What makes a password easy to guess.</h3>
+                                    <p class="article-paragraph">If hackers can get a list of email addresses from a data breach, they already have a good start. All they have to do is pick their website of choice and try these emails with the most popular passwords. Chances are, they’ll be able to get into quite a few accounts. So don’t use any of these <a class='st-copy-link' href='https://www.teamsid.com/splashdatas-top-100-worst-passwords-of-2018/' class='worst-passwords' rel='noopener noreferrer'>100 Worst Passwords of 2018.</a></p>
+            
+            
+                                  <ul class=-list>
+                                      <li class="article-list-item">123456 and password are the most commonly used passwords. Don’t use them.</li>
+                                      <li class="article-list-item">Switching a letter for a symbol (p@ssw0rd!) is an obvious trick hackers know well.</li>
+                                      <li class="article-list-item">Avoid favorite sports teams or pop culture references. Use something more obscure.</li>
+                                      <li class="article-list-item">Don’t use a single word like sunshine, monkey, or football. Using a phrase or sentence as your password is stronger.</li>
+                                      <li class="article-list-item">Don’t use common number patterns like 111111, abc123, or 654321.</li>
+                                      <li class="article-list-item">Adding a number or piece of punctuation at the end doesn’t make your password stronger.</li>
+                                  </ul>
+      
+
+              <h3 class="article-subhead">One exposed password can unlock many accounts.</h3>
+                                    <p class="article-paragraph">Hackers know people reuse the same passwords. If your banking password is the same as your email password is the same as your Amazon password, a single vulnerability in one site can put the others at risk.</p>
+                                    <p class="article-paragraph">It’s why you should use different passwords for every single account. The average person has 90 accounts, and that’s a lot of passwords to remember. Security experts recommend using a password manager to safely store unique passwords for every site.</p>
+            
+            
+      
+
+              <h3 class="article-subhead">Hackers don’t care how much money you have.</h3>
+                                    <p class="article-paragraph">Think you don’t need to worry because you don’t have much money to steal? Hackers couldn’t care less. There are countless ways to leverage all types of personal data for profit.</p>
+                                    <p class="article-paragraph">Through identity theft, cyber criminals can open new credit cards or apply for loans in your name. By getting your financial information, they can make purchases or withdrawals. These attackers can even find ways to target your friends and family once they gain access to your email.</p>
+            
+            
+      
+        </div>
+        <div id="after-breach" class="st-after-breach article-wrapper">
+          <div class="ico after-breach"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="icon-inline">
+  <path d="M12.68 16.13c0 2.64 1.15 4.24 3.06 4.24s3.18-1.62 3.18-4.24-1.22-4.24-3.17-4.24-3.07 1.58-3.07 4.24M31 14.35c0 5.73-2.71 9.42-7.15 9.42-2.26 0-4-1.09-4.39-2.86h-.25a4.42 4.42 0 0 1-4.39 2.81c-3.78 0-6.32-3.08-6.32-7.7 0-4.42 2.5-7.45 6.14-7.45A4.56 4.56 0 0 1 19 11.16h.25V9h3.69v9.74c0 1.26.59 2.06 1.73 2.06 1.79 0 3-2.28 3-6.15C27.7 8 23.13 3.71 16.23 3.71S4.31 8.77 4.31 16.09c0 7.66 5.11 12.14 12.61 12.14a16.47 16.47 0 0 0 5-.64v2.92a19.18 19.18 0 0 1-5.24.67C7.44 31.18 1 25.41 1 16 1 7 7.27.82 16.36.82 25 .82 31 6.24 31 14.34" fill="#fff" fill-rule="evenodd"/>
+</svg></div>
+          <span class="security-tip-subhead">Lock down your accounts to keep your information out of the wrong hands.</span>
+          <h2 class="article-headline mw-500 after-breach">What to do after a data breach</h2>
+              <p class="article-paragraph lead">
+                <span class="drop-cap">
+                  
+                </span>
+                <span>You get an email, either from Firefox Monitor or a company where you have an account. There’s been a security incident. Your account has been compromised.</span>
+              </p>
+
+                                    <p class="article-paragraph">Getting notified that you’ve been a victim of a data breach can be alarming. You have valid cause for concern, but there are a <span class='bold'>few steps you can take immediately to protect your account and limit the damage.</span></p>
+            
+            
+      
+
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Read the details about the breach.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Read closely to learn what happened. What personal data of yours was included? Your next steps will depend on what information you need to protect. When did the breach happen? You may receive the notice months or even years after the data breach occurred. Sometimes it takes awhile for companies to discover a breach. Sometimes breaches are not immediately made public.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">If you haven’t yet, change your password.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Lock down your account with a new password. If you can’t log in, contact the website to ask how you can recover or shut down the account. See an account you don’t recognize? The site may have changed names or someone may have created an account for you.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">If you’ve used that password for other accounts, change those too.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Hackers may try to reuse your exposed password to get into other accounts. Create a different password for each website, especially for your financial accounts, email account, and other websites where you save personal information.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Take extra steps if your financial data was breached.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Most breaches only expose emails and passwords, but some do include sensitive financial information. If your bank account or credit card numbers were included in a breach, alert your your bank to possible fraud. Monitor statements for charges you don't recognize.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Review your credit reports to catch identity theft.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">If you have credit history in the United States, check your credit reports for suspicious activity. Ensure that no new accounts, loans, or cards have been opened in your name. By law, you’re permitted to one free report from the three major credit reporting bureaus every year. Request them through annualcreditreport.com. And don’t worry, checking your own credit report never affects your score.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+            
+            
+      
+        </div>
+        <div id="strong-passwords" class="st-strong-passwords article-wrapper">
+          <div class="ico strong-passwords"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="icon-inline">
+  <path d="M27.77 10H3.92a4.08 4.08 0 0 0-4.07 4.09v3.7a4.09 4.09 0 0 0 4.07 4.08h23.85a4.1 4.1 0 0 0 4.08-4.08v-3.7A4.09 4.09 0 0 0 27.77 10zm-16.93 6.48a.2.2 0 0 1 .13.14.25.25 0 0 1 0 .19l-.51.85a.21.21 0 0 1-.15.11.24.24 0 0 1-.18-.05L9 16.89l.18 1.38a.26.26 0 0 1-.06.18.23.23 0 0 1-.17.08H8a.23.23 0 0 1-.17-.08.26.26 0 0 1-.06-.18l.18-1.39-1.13.85a.23.23 0 0 1-.18 0 .27.27 0 0 1-.16-.11L6 16.8a.24.24 0 0 1 .11-.32l1.29-.54-1.29-.56a.23.23 0 0 1-.11-.33l.5-.83a.21.21 0 0 1 .15-.11.19.19 0 0 1 .18 0l1.1.89-.18-1.38a.3.3 0 0 1 .06-.18.22.22 0 0 1 .19-.08h1a.22.22 0 0 1 .17.07.3.3 0 0 1 .06.18L9 15l1.12-.84a.23.23 0 0 1 .18 0 .19.19 0 0 1 .15.11l.48.85a.21.21 0 0 1 0 .19.25.25 0 0 1-.13.14l-1.29.53zm7.38 0a.2.2 0 0 1 .13.14.25.25 0 0 1 0 .19l-.51.85a.21.21 0 0 1-.15.11.24.24 0 0 1-.18-.05l-1.09-.83.18 1.38a.26.26 0 0 1-.06.18.23.23 0 0 1-.17.08h-1a.23.23 0 0 1-.17-.08.26.26 0 0 1-.06-.18l.18-1.39-1.13.85a.23.23 0 0 1-.18 0 .27.27 0 0 1-.16-.11l-.48-.86a.24.24 0 0 1 .11-.32l1.29-.54-1.29-.56a.23.23 0 0 1-.11-.33l.5-.83a.21.21 0 0 1 .15-.11.19.19 0 0 1 .18 0l1.12.84-.18-1.38a.3.3 0 0 1 .06-.18.22.22 0 0 1 .17-.07h1a.22.22 0 0 1 .17.07.3.3 0 0 1 .06.18L16.4 15l1.12-.84a.23.23 0 0 1 .18 0 .19.19 0 0 1 .15.11l.48.85a.21.21 0 0 1 0 .19.25.25 0 0 1-.13.14l-1.29.53zm7.38 0a.2.2 0 0 1 .13.14.21.21 0 0 1 0 .19l-.51.85a.21.21 0 0 1-.15.11.24.24 0 0 1-.18-.05l-1.09-.83.2 1.38a.26.26 0 0 1-.06.18.23.23 0 0 1-.17.08h-1a.23.23 0 0 1-.17-.08.26.26 0 0 1-.06-.18l.18-1.39-1.13.85a.23.23 0 0 1-.18 0 .31.31 0 0 1-.16-.11l-.48-.86a.24.24 0 0 1 .11-.32l1.29-.54-1.29-.56a.23.23 0 0 1-.11-.33l.5-.83a.21.21 0 0 1 .15-.11.19.19 0 0 1 .18 0l1.12.84-.18-1.38a.3.3 0 0 1 .06-.18.22.22 0 0 1 .17-.07h1a.22.22 0 0 1 .17.07.3.3 0 0 1 .06.18L23.78 15l1.12-.84a.23.23 0 0 1 .18 0 .19.19 0 0 1 .15.11l.48.85a.21.21 0 0 1 0 .19.25.25 0 0 1-.13.14l-1.29.53z" fill="#fff"/>
+</svg></div>
+          <span class="security-tip-subhead">Make your passwords strong, secure, and hard to guess.</span>
+          <h2 class="article-headline mw-500 strong-passwords">How to create strong passwords</h2>
+              <p class="article-paragraph lead">
+                <span class="drop-cap">
+                  
+                </span>
+                <span>Your password is your first line of defense against hackers and unauthorized access to your accounts. The strength of your passwords directly impacts your online security.</span>
+              </p>
+
+            
+            
+      
+
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Combine unrelated words to make stronger passwords.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">To create a strong password, try combining two or more unrelated words. It could even be an entire phrase. Then change some of the letters to special letters and numbers. The longer your password, the stronger it is.</p>
+                                              <p class="article-paragraph">A single word with one letter changed to an @ or ! (such as p@ssword!) doesn’t make for a strong password. Password cracking programs contain every type of these combinations, in every single language.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                                        <div class="st-call-out">
+                                          <div class="inset">
+                                            <div class="st-headline-icon-wrapper flx flx-row al-cntr">
+                                              <svg class="st-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16"><path fill="#5e5e72" d="M8 1a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7zm0 13a6 6 0 1 1 6-6 6.007 6.007 0 0 1-6 6zm0-7a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1zm0-3.188A1.188 1.188 0 1 0 9.188 5 1.188 1.188 0 0 0 8 3.812z"></path></svg>
+                                              <p class="flx flx-row al-cntr al-cntr st-headline"><span class='bold'>Security tip:</span> Steer clear of the 100 most-used passwords.</p>
+                                            </div>
+                                              <p class="st-subhead">Every year, SplashData evaluates millions of leaked passwords and compiles the <a class='st-copy-link' target='_blank' rel='noopener noreferer' href='https://www.teamsid.com/splashdatas-top-100-worst-passwords-of-2018/'>100 most common ones.</a> The most recent list includes password, 123456, and other passwords you shouldn’t use. </p>
+                                          </div>
+                                        </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Certain words should be avoided in all passwords.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Many people use familiar people, places, or things in passwords because it makes their passwords easy to remember. This also makes your passwords easy for hackers to guess.</p>
+                                              <p class="article-paragraph">According to a study conducted by Google, <span class='demi'>passwords that contain the following information are considered insecure because they’re easy to figure out.</span> You can find much of this info after reviewing someone’s social media profiles.</p>
+                      
+                      
+                                            <ul class=-list>
+                                                <li class="article-list-item">Pet names</li>
+                                                <li class="article-list-item">A notable date, such as a wedding anniversary</li>
+                                                <li class="article-list-item">A family member’s birthday</li>
+                                                <li class="article-list-item">Your child’s name</li>
+                                                <li class="article-list-item">Another family member’s name</li>
+                                                <li class="article-list-item">Your birthplace</li>
+                                                <li class="article-list-item">A favorite holiday</li>
+                                                <li class="article-list-item">Something related to your favorite sports team</li>
+                                                <li class="article-list-item">The name of a significant other</li>
+                                                <li class="article-list-item">The word “Password”</li>
+                                            </ul>
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Use different passwords for every account.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">To keep your accounts as secure as possible, it’s best that every single one has a unique password. If one account gets breached, then hackers can’t use those login credentials to gain access to other accounts.</p>
+                                              <p class="article-paragraph">While no one can stop hackers from hacking, you can stop reusing the same password everywhere. It makes it far too easy for cyber criminals to attack one site and get your password for others.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Use a password manager to remember all your passwords.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Do you really need to remember 100 passwords? Not at all. A password manager is a piece of software that keeps all your password safe, encrypted, and protected. It can even generate strong passwords for you and automatically enter them in to websites and apps.</p>
+                                              <p class="article-paragraph">Password managers act like a digital safe-deposit box for all your online accounts. You just need one key to get into your accounts: A single, easy-to-remember but hard-to-guess password. That password unlocks the safe.</p>
+                                              <p class="article-paragraph">But what if your password manager gets hacked? A good one keeps your passwords encrypted behind a password they don’t know (only you do). They don’t store any of your credentials on their servers. While no single tool can guarantee total online safety, security experts agree that using a password manager is far more secure than using the same password everywhere.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Add an extra layer of security with two-factor authentication.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Many websites offer two-factor authentication, also known as 2FA or multi-factor authentication. On top of your username and password, 2FA requires another piece of information to verify yourself. So, even if someone has your password, they can’t get in.</p>
+                                              <p class="article-paragraph">Withdrawing money from an ATM is an example of 2FA. It requires your PIN code and your bank card. You need these two pieces to complete the transaction.</p>
+                                              <p class="article-paragraph"><a class='st-copy-link' target='_blank' rel='noopener noreferer' href='https://twofactorauth.org/'>Websites that support 2FA</a> include Google and Amazon. When you have 2FA enabled, the site will text you a code to enter after your password. Other forms of 2FA include YubiKeys USB ports and security apps like DUO. </p>
+                                              <p class="article-paragraph">When you set up 2FA, many sites will give you a list of backup codes to verify your account. A password manager is a great place to store these codes.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+            
+            
+      
+
+            
+            
+      
+                          <section class="dos-and-donts container">
+                            <h3 class="password-tip-list-headline txt-cntr"> Password do’s and don’ts</h3>
+                            <div class="password-tip-list-wrapper">
+                              <div class="pw-tip-table">
+                                <div class="pw-tip-headlines flx">
+                                  <div class="pw-do-hl do-dont-hl flx jst-cntr">
+                                    <h4 class="flx icon-do">Do</h4>
+                                  </div>
+                                  <div class="pw-dont-hl do-dont-hl flx jst-cntr">
+                                    <h4 class="flx icon-dont">Don't</h4>
+                                  </div>
+                                </div>
+                                <div class="password-tip-list flx">
+                                    <div class="pw-tip-item flx">
+                                      <div class="pw-do do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-do">Do:</span>
+                                          Do combine two or more unrelated words. Change letters to numbers or special characters.
+                                        </span>
+                                      </div>
+                                      <div class="pw-dont do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-dont">Don't:</span>
+                                          Don’t use the word “password,” or any combination of it. “P@ssword!” is just as easy for hackers to guess.
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="pw-tip-item flx">
+                                      <div class="pw-do do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-do">Do:</span>
+                                          Do make your passwords at least 8 characters long. Aim for 12-15 characters.
+                                        </span>
+                                      </div>
+                                      <div class="pw-dont do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-dont">Don't:</span>
+                                          Use short, one-word passwords, like sunshine, monkey, or football.
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="pw-tip-item flx">
+                                      <div class="pw-do do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-do">Do:</span>
+                                          Do use a combination of upper- and lower-case letters, numbers, and symbols.
+                                        </span>
+                                      </div>
+                                      <div class="pw-dont do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-dont">Don't:</span>
+                                          Don’t place special characters (@, !, 0, etc.) only at the beginning or the end.
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="pw-tip-item flx">
+                                      <div class="pw-do do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-do">Do:</span>
+                                          Do include unusual words only you would know. It should seem nonsensical to other people.
+                                        </span>
+                                      </div>
+                                      <div class="pw-dont do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-dont">Don't:</span>
+                                          Don’t include personal information like your birthdate, address, or family members’ names.
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="pw-tip-item flx">
+                                      <div class="pw-do do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-do">Do:</span>
+                                          Do keep your passwords protected and safe, like encrypted in a password manager.
+                                        </span>
+                                      </div>
+                                      <div class="pw-dont do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-dont">Don't:</span>
+                                          Don’t share your passwords. Don’t put them on a piece of paper stuck to your computer.
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="pw-tip-item flx">
+                                      <div class="pw-do do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-do">Do:</span>
+                                          Do spread various numbers and characters throughout your password.
+                                        </span>
+                                      </div>
+                                      <div class="pw-dont do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-dont">Don't:</span>
+                                          Don’t use common patterns like 111111, abc123, or 654321.
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="pw-tip-item flx">
+                                      <div class="pw-do do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-do">Do:</span>
+                                          Do create unique and complex passwords for every site.
+                                        </span>
+                                      </div>
+                                      <div class="pw-dont do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-dont">Don't:</span>
+                                          Don’t use the same password everywhere.
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="pw-tip-item flx">
+                                      <div class="pw-do do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-do">Do:</span>
+                                          Do use an extra layer of security with two-factor authentication (2FA).
+                                        </span>
+                                      </div>
+                                      <div class="pw-dont do-dont-wrap flx jst-cntr">
+                                        <span class="do-dont">
+                                          <span class="do-dont-hl-mobile show-mobile icon-dont">Don't:</span>
+                                          Don’t think a weaker password is safer because you have 2FA.
+                                        </span>
+                                      </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+        </div>
+        <div id="steps-to-protect" class="st-steps-to-protect article-wrapper">
+          <div class="ico steps-to-protect"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16" fill="#ffffff"><path d="M8 0a7 7 0 0 0-7 7 1 1 0 0 0 2 0 5 5 0 0 1 10 0 8.24 8.24 0 0 1-1.14 4.28A5.75 5.75 0 0 0 11 14a1 1 0 0 0 2 0 3.91 3.91 0 0 1 .63-1.79A10.18 10.18 0 0 0 15 7a7 7 0 0 0-7-7z"></path><path d="M8 3a4 4 0 0 0-4 4 2 2 0 0 1-2 2 1 1 0 0 0 0 2 4 4 0 0 0 4-4 2 2 0 0 1 4 0 6.88 6.88 0 0 1-1.74 4.8 11 11 0 0 0-1.15 1.75 1 1 0 0 0 .44 1.34A.93.93 0 0 0 8 15a1 1 0 0 0 .89-.55 9.74 9.74 0 0 1 1-1.44A8.84 8.84 0 0 0 12 7a4 4 0 0 0-4-4z"></path><path d="M8 6a1 1 0 0 0-1 1c0 4.21-5.26 6-5.32 6.05a1 1 0 0 0-.63 1.27A1 1 0 0 0 2 15a1.25 1.25 0 0 0 .32 0C2.59 14.86 9 12.66 9 7a1 1 0 0 0-1-1z"></path></svg></div>
+          <span class="security-tip-subhead">Understand the most common threats and know what to look out for.</span>
+          <h2 class="article-headline mw-500 steps-to-protect">Steps to take to protect your identity online</h2>
+              <p class="article-paragraph lead">
+                <span class="drop-cap">
+                  
+                </span>
+                <span>Data breaches are one of many online threats. Using secure internet connections, updating your software, avoiding scam emails, and employing better password hygiene will help you stay safer while you browse.</span>
+              </p>
+
+            
+            
+      
+
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Be wary of public Wi-Fi networks.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">You can get Wi-Fi almost anywhere. But these open networks are the most vulnerable and tend to be the least secure. This includes the free Wi-Fi at restaurants, libraries, airports, and other public spaces. If you can avoid it, don’t use public Wi-Fi. Most importantly, don’t use these networks to log in to financial sites or shop online. It’s easy for anyone to see what you’re doing.</p>
+                                              <p class="article-paragraph">Instead, we recommend using a Virtual Private Network (VPN), which lets you use public Wi-Fi more securely and keeps your online behavior private. A VPN routes your connection through a secure server that encrypts your data before you land on a web page. </p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Run software and app updates as soon as they’re available.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Updating software on your computer or phone can seem like a pain, but it’s a crucial step to keeping devices safe. These updates fix bugs, software vulnerabilities, and security problems. Regularly updating your smartphone apps and operating systems makes your devices more secure.</p>
+                      
+                                            <h4 class="st-list-header">Tips for keeping all your online accounts secure:</h4>           
+                      
+                                            <ul class=-list>
+                                                <li class="article-list-item">Use unique, strong passwords for every account</li>
+                                                <li class="article-list-item">Use a password manager to remember all your passwords for you</li>
+                                                <li class="article-list-item">Turn on two-factor authentication for an extra layer of security</li>
+                                                <li class="article-list-item">Use a VPN (Virtual Private Network) when using public Wi-Fi</li>
+                                                <li class="article-list-item">Update to the latest version of all software and apps</li>
+                                            </ul>
+                    </div><!--closes toggle-child-->
+                  </div>
+                                        <div class="st-call-out">
+                                          <div class="inset">
+                                            <div class="st-headline-icon-wrapper flx flx-row al-cntr">
+                                              <svg class="st-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16"><path fill="#5e5e72" d="M8 1a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7zm0 13a6 6 0 1 1 6-6 6.007 6.007 0 0 1-6 6zm0-7a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1zm0-3.188A1.188 1.188 0 1 0 9.188 5 1.188 1.188 0 0 0 8 3.812z"></path></svg>
+                                              <p class="flx flx-row al-cntr al-cntr st-headline"><span class='bold'>Security tip:</span> Turn on automatic updates.</p>
+                                            </div>
+                                              <p class="st-subhead">You can set your computer, browser, apps, and phone to update automatically as soon as new updates become available. Set it and forget it!</p>
+                                          </div>
+                                        </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Be vigilant about emails that seem even a little bit strange.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Phishing is a type of email scam that is becoming increasingly common. In these emails, hackers impersonate a service or company you trust. These emails can even come from one of your contacts. They look like the real thing because they mimic the design of authentic emails, like those from your bank or email provider.</p>
+                                              <p class="article-paragraph">The goal of these hackers is to get you to unknowingly enter your password or download a document that can infect your computer. Most online services won’t ask you to enter your login info directly from an email. If they do, you should instead go directly to their website to log in.</p>
+                                              <p class="article-paragraph">Think before you fill anything out. Does this email seem out of the blue? Does something seem off about it? Are you being asked to log in to an account to update something? Don’t click, and don’t enter your password anywhere. Open your browser, and type in the address of the company website instead.</p>
+                      
+                                            <h4 class="st-list-header">Know the classic signs of a suspicious email.</h4>           
+                      
+                                            <ul class=-list>
+                                                <li class="article-list-item">Displays grammar or spelling mistakes</li>
+                                                <li class="article-list-item">Send address looks unusual</li>
+                                                <li class="article-list-item">Promises something that seems too good to be true</li>
+                                                <li class="article-list-item">Asks you to log in from the email itself</li>
+                                                <li class="article-list-item">Asks you to open or download a file that you don’t recognize</li>
+                                            </ul>
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Be selective about who you give your email address to.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">The more online accounts you create, the greater the risk that you’ll be involved in a data breach. Many companies, services, apps, and websites ask for your email. But it’s not always required. Here are some ways to avoid giving out your email address:</p>
+                      
+                      
+                                            <ul class=-list>
+                                                <li class="article-list-item">Don’t create an account if it’s not required. For example, many online shopping portals allow you to check out as a guest.</li>
+                                                <li class="article-list-item">If a website requires an email address, use services like 10minutemail or Nada, which allow you to create a temporary one.</li>
+                                                <li class="article-list-item">Create a different email to sign up for promotions and newsletters. Don’t include any personal info that could be used to identify you in that email address, like your name or birthday.</li>
+                                            </ul>
+                    </div><!--closes toggle-child-->
+                  </div>
+                                        <div class="st-call-out">
+                                          <div class="inset">
+                                            <div class="st-headline-icon-wrapper flx flx-row al-cntr">
+                                              <svg class="st-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16"><path fill="#5e5e72" d="M8 1a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7zm0 13a6 6 0 1 1 6-6 6.007 6.007 0 0 1-6 6zm0-7a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1zm0-3.188A1.188 1.188 0 1 0 9.188 5 1.188 1.188 0 0 0 8 3.812z"></path></svg>
+                                              <p class="flx flx-row al-cntr al-cntr st-headline"><span class='bold'>Security tip:</span> How to create strong passwords.</p>
+                                            </div>
+                                              <p class="st-subhead">Include a combination of upper and lowercase letters, numbers, and characters. Combining a few unrelated words and changing the letters is a good method. <a class='st-link' href='#strong-passwords'>Read the guide</a></p>
+                                          </div>
+                                        </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Use unique, strong passwords for every single account.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">One of the best ways to protect yourself online is to use different passwords across all your online accounts. This way, hackers won’t have the keys to your entire digital life if they get their hands on that one password you use everywhere.</p>
+                                              <p class="article-paragraph">Your passwords also need to be strong. Single words (like sunshine, monkey, or football) make for weak passwords. So do these 100 most-commonly used passwords, which include password and 123456. Avoid pop-culture references, sports teams, and personal info. Do not use your address, birthday, names of family members, or pets’ names. The longer and more unique your passwords are, the harder they will be for hackers to crack.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                                        <div class="st-call-out">
+                                          <div class="inset">
+                                            <div class="st-headline-icon-wrapper flx flx-row al-cntr">
+                                              <svg class="st-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16"><path fill="#5e5e72" d="M8 1a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7zm0 13a6 6 0 1 1 6-6 6.007 6.007 0 0 1-6 6zm0-7a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1zm0-3.188A1.188 1.188 0 1 0 9.188 5 1.188 1.188 0 0 0 8 3.812z"></path></svg>
+                                              <p class="flx flx-row al-cntr al-cntr st-headline"><span class='bold'>Security tip:</span></p>
+                                            </div>
+                                              <p class="st-subhead">Firefox recommends 1Password, LastPass, Dashlane, and Bitwarden for security and ease of use.</p>
+                                          </div>
+                                        </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Remember all your passwords with a password manager.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Ever forgotten your password? It happens all the time. The average person has 90 online accounts. And we’re being asked to create new ones all the time.</p>
+                                              <p class="article-paragraph">The good news is you don’t have to recall all your passwords from memory. Password managers are secure, easy-to-use applications that do the remembering for you. They even fill your passwords into websites and apps when you need to log in. All you need to remember is a single password — the one you use to unlock your password manager. They can even generate hard-to-guess passwords to help make your accounts more secure. All your data is encrypted, making password managers pretty secure — even if they get hacked.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+            
+            
+      
+        </div>
+        <div id="five-myths" class="st-five-myths article-wrapper">
+          <div class="ico five-myths"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><path d="M9.5 3s.428 2.43 1.249 3.251S14 7.5 14 7.5s-2.43.394-3.251 1.215S9.5 12 9.5 12s-.394-2.464-1.215-3.285S5 7.5 5 7.5s2.464-.428 3.285-1.249S9.5 3 9.5 3m0-2h-.014a2 2 0 0 0-1.96 1.68 7.536 7.536 0 0 1-.659 2.154 7.9 7.9 0 0 1-2.212.7 2 2 0 0 0 .029 3.945 7.733 7.733 0 0 1 2.183.658 7.74 7.74 0 0 1 .658 2.185A2 2 0 0 0 9.489 14H9.5a2 2 0 0 0 1.971-1.657 7.891 7.891 0 0 1 .7-2.209 7.566 7.566 0 0 1 2.154-.659 2 2 0 0 0 .027-3.944 7.694 7.694 0 0 1-2.181-.7 7.731 7.731 0 0 1-.7-2.181A2 2 0 0 0 9.5 1zM3 15.5a.5.5 0 0 1-.49-.421 3.047 3.047 0 0 0-.4-1.186 3.047 3.047 0 0 0-1.186-.4.5.5 0 0 1-.007-.986 3.147 3.147 0 0 0 1.192-.417 3.051 3.051 0 0 0 .4-1.171A.5.5 0 0 1 3 10.5a.5.5 0 0 1 .492.413 3.094 3.094 0 0 0 .417 1.179 3.142 3.142 0 0 0 1.178.416.5.5 0 0 1-.007.985 3.007 3.007 0 0 0-1.172.4 3.166 3.166 0 0 0-.416 1.192A.5.5 0 0 1 3 15.5zm-.5-11a.5.5 0 0 1-.49-.42 2.344 2.344 0 0 0-.265-.82 2.344 2.344 0 0 0-.82-.265.5.5 0 0 1-.007-.986 2.41 2.41 0 0 0 .827-.277A2.306 2.306 0 0 0 2.007.92.5.5 0 0 1 2.5.5a.5.5 0 0 1 .492.412 2.353 2.353 0 0 0 .278.818 2.372 2.372 0 0 0 .816.276.5.5 0 0 1-.007.985 2.306 2.306 0 0 0-.811.266 2.41 2.41 0 0 0-.277.827.5.5 0 0 1-.491.416z" fill="#ffffff"></path></svg></div>
+          <span class="security-tip-subhead">Learn how to avoid bad password habits that make a hacker’s work easy.</span>
+          <h2 class="article-headline mw-500 five-myths">5 myths about password managers</h2>
+              <p class="article-paragraph lead">
+                <span class="drop-cap">
+                  
+                </span>
+                <span>Password managers are the most recommended tool by security experts to protect your online credentials from hackers. But many people are still hesitant to use them. Here’s why password managers are safe, secure, and your best defense against password-hungry cyber criminals.</span>
+              </p>
+
+            
+            
+      
+
+              <h3 class="article-subhead">What is a password manager?</h3>
+                                    <p class="article-paragraph">Think of it like a safe for your passwords. When you need something inside the safe, you unlock it. Password managers work the same for your online credentials.</p>
+                                    <p class="article-paragraph">You create a single, super-strong password, which acts like a key. Install the password manager app on your phone, computer, browser, and other devices. Your passwords are securely stored inside it. Anytime you need to log in to an account, unlock your password manager and retrieve your login info.</p>
+            
+            
+      
+
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead"><span class='myth'>Myth 1:</span> Password managers aren’t safe or trustworthy.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">With website vulnerabilities and security incidents on the rise, many people have grown to mistrust a tech tool to manage their passwords. What if the password manager gets hacked?</p>
+                                              <p class="article-paragraph">Reputable password managers take extra steps to lock down your info and keep it safe from cyber criminals.</p>
+                      
+                                            <h4 class="st-list-header">A good password manager:</h4>           
+                      
+                                            <ul class=-list>
+                                                <li class="article-list-item">Doesn’t know your master password (so hackers can never steal it)</li>
+                                                <li class="article-list-item">Encrypts all your data </li>
+                                                <li class="article-list-item">Does not store any of your data on their servers</li>
+                                                <li class="article-list-item">Can generate strong, secure password</li>
+                                            </ul>
+                    </div><!--closes toggle-child-->
+                  </div>
+            
+            
+      
+
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead"><span class='myth'>Myth 2:</span> Password managers aren’t 100% secure, so I shouldn’t use one.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">No privacy tool can completely guarantee your online safety. Even the most elaborate lock can be broken into. Yet we still lock our doors to our houses and cars. </p>
+                                              <p class="article-paragraph">The alternative to using a password manager is to rely on your own memory to remember all your credentials. This inevitably leads to recycling passwords or using variations — a bad habit that hackers love.</p>
+                                              <p class="article-paragraph">Password managers can be such an effective security tool because they help us improve bad habits. With a password manager installed on your computer and phone, it’s a lot easier to take your logins everywhere so you can use unique, strong passwords on every account.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead"><span class='myth'>Myth 3:</span> Storing all my passwords in one place makes them vulnerable to hackers.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Password managers don’t store all your credentials together in one place. Any data you store in a password manager — passwords, logins, security questions, and other sensitive info — is securely encrypted. Even if the password manager gets hacked, cyber criminals would not be able to see your logins.</p>
+                                              <p class="article-paragraph">The only way to access your data is with a single master password that only you know. You use this password to unlock the manager on your computer, phone, or other devices. Once it’s unlocked, a password manager can fill in your logins to websites and apps.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead"><span class='myth'>Myth 4:</span> Remembering all my passwords is safer than trusting technology to do it for me.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Our memories sometimes fail us. Ever clicked a “forgot password?” link? It’s very common to use variations of the same password to make them easier to remember. With a password manager, you don’t need to remember any of your credentials. It can be installed on all your devices and will auto-fill your passwords for you. Once you get in the habit of using one, you’ll no longer have to worry about forgetting your credentials.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead"><span class='myth'>Myth 5:</span> It’s a huge pain to set up a password manager.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Sure, it takes time to log all your credentials in a password manager. But you don’t need to do it all at once. You can always start small and change just a few passwords at a time. Try installing a password manager and creating new, unique passwords for the websites you visit most frequently. Over time, as you log in to other sites, you can add others.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+            
+            
+      
+        </div>
+        <div id="next-steps" class="st-next-steps article-wrapper">
+          <div class="ico next-steps"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="icon-inline">
+  <path d="M12.15 14.76a9.41 9.41 0 0 1 1.22-1.38c1.33-1.17 4.39-3 5.61-4.53C21.24 6 22.73 2.28 20.7.71c-2.27-1.76-6.54-.08-9 3.13C10.37 5.48 10.53 7 8.17 9.89l-.62.75a32.16 32.16 0 0 0 4.6 4.12zm-2.29 3.11c.46-.55.85-1.11 1.23-1.66a32.37 32.37 0 0 1-3.94-3.36q-.42-.42-.78-.81a16.12 16.12 0 0 0-1.49 2c-.64 1.05-1.41 3.19.34 4.53a3 3 0 0 0 4.28-.2 2.8 2.8 0 0 0 .36-.5zm17.29-2.35c-1.56-2-5.22-.53-8.1 1.72-1.56 1.22-3.35 4.26-4.52 5.59A9.12 9.12 0 0 1 13.18 24a31.67 31.67 0 0 0 4.08 4.58L18 28c2.85-2.35 4.4-2.19 6-3.46 3.22-2.54 4.9-6.76 3.15-9.02zm-15.43 9.57c-.55.38-1.1.77-1.65 1.22A3 3 0 0 0 9 30.44a2.47 2.47 0 0 0 .36.49c1.33 1.75 3.47 1 4.51.34a16.61 16.61 0 0 0 2-1.48c-.25-.23-.5-.48-.76-.74a31.77 31.77 0 0 1-3.39-3.96z" fill="#fff"/>
+</svg></div>
+          <span class="security-tip-subhead">Find out how to mitigate the risks of identity theft to prevent financial loss.</span>
+          <h2 class="article-headline mw-500 next-steps">Take further steps to protect your identity</h2>
+              <p class="article-paragraph lead">
+                <span class="drop-cap">
+                  
+                </span>
+                <span>When big data breaches happen, there’s immediately a lot of talk about credit reports. Security experts recommend you check your credit reports for suspicious activity. To protect your identity, they also recommend you freeze your credit. Here’s what that means and why it’s important.</span>
+              </p>
+
+              <h3 class="article-subhead">What’s a credit report? Do I have one?</h3>
+                                    <p class="article-paragraph">If you’ve ever rented an apartment, opened a bank account, or applied for a credit card or a loan, you likely have a credit report.</p>
+                                    <p class="article-paragraph">In fact, you have three credit reports. There are three credit-reporting bureaus in the United States: Experian, TransUnion, and Equifax. Each one holds a report on you that contains personal information about your credit history. Your credit reports contain:</p>
+            
+            
+      
+
+            
+            
+                                  <ul class=-list>
+                                      <li class="article-list-item">Personal identifying information, such as your name, past and current addresses, Social Security number, and date of birth.</li>
+                                      <li class="article-list-item">Current and past credit accounts, such as credit cards, mortgages, student loans, and auto loans.</li>
+                                      <li class="article-list-item">Inquiry information, which are instances in which you’ve applied for new loans or credit cards.</li>
+                                      <li class="article-list-item">Bankruptcies and collection information.</li>
+                                      <li class="article-list-item">Your credit report does not include your credit score.</li>
+                                  </ul>
+      
+
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">Why you should check your credit reports once a year.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">Having your information exposed in a data breach puts you at risk of identity theft. If someone steals your identity and tries to open new cards or loans in your name, it will appear on your credit reports. Each may have slightly different information, which is why it’s important to check all three regularly.</p>
+                                              <p class="article-paragraph">By law, you are entitled to one free credit report a year from each of the three credit bureaus. You can request your credit reports at annualcreditreport.com. This is the only official and truly free website to obtain your reports. You can also call Experian, TransUnion, and Equifax directly or request your reports by mail.</p>
+                      
+                      
+                    </div><!--closes toggle-child-->
+                  </div>
+            
+            
+      
+
+              <h3 class="article-subhead">Checking your own credit report will not affect your score.</h3>
+                                    <p class="article-paragraph">You will never be penalized for checking your own report or your own credit score. And checking your report does not impact your score in any way. Experian, TransUnion, and Equifax may offer paid identity monitoring packages or charge for access to your credit score, but it’s always free to check your report once a year.</p>
+                                    <p class="article-paragraph">Though the information on your credit report directly impacts your score, reports don’t actually contain your score. There are many websites, services, and credit cards where you can check your score for free. So it’s usually not necessary to pay the bureaus themselves to see your score.</p>
+            
+            
+      
+
+                  <div class="toggle-parent inactive st-toggle-wrapper">
+                    <div class="toggle-info-wrapper">
+                      <button class="toggle svg-wrap article-toggle" aria-label="show-content">
+                        <span class="article-subhead toggle-subhead">What to look for to spot signs of identity theft.</span>                    
+                        <svg class="toggle-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" d="M8 12a1 1 0 0 1-.707-.293l-5-5a1 1 0 0 1 1.414-1.414L8 9.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5A1 1 0 0 1 8 12z"></path></svg>                      </button>
+                    </div>
+                    <div class="toggle-child">
+                                              <p class="article-paragraph">When you receive your credit reports from Experian, TransUnion, and Equifax, review them carefully. These are long, dense documents that can be overwhelming, especially if you have a long credit history. Look for accounts or addresses you don't recognize or any information that is inaccurate. Make sure:</p>
+                      
+                      
+                                            <ul class=-list>
+                                                <li class="article-list-item">All the accounts listed are ones you personally opened.</li>
+                                                <li class="article-list-item">All addresses listed and your employer are correct.</li>
+                                                <li class="article-list-item">Your balances and credit history are correct.</li>
+                                                <li class="article-list-item">All hard credit inquiries are from loans or credit cards you applied for. Soft inquiries may be listed, which are from pre-approved credit card offers. These do not affect your score.</li>
+                                            </ul>
+                    </div><!--closes toggle-child-->
+                  </div>
+            
+            
+      
+
+              <h3 class="article-subhead">Next step: Block unauthorized access to your credit report with a credit freeze. </h3>
+                                    <p class="article-paragraph">Placing a freeze on your credit report is the most effective method to stop identity thieves in their tracks. It’s completely free with all three bureaus and will not affect your credit cards, credit report, or credit score. You can continue using your cards as you were before.</p>
+                                    <p class="article-paragraph">Freezing your credit report means only you can apply for new cards or loans. No one else will be able to do this in your name. It’s like putting a lock on your credit report, and only you have the key. You can unlock (or unfreeze) your credit report at any time. For example, you may want to open a new credit card. You can temporarily lift the freeze to do so, then refreeze your credit report again after.</p>
+                                    <p class="article-paragraph">Federal legislation requires credit-reporting agencies to offer free credit freezes and unfreezes. To freeze your credit report with Experian, TransUnion, and Equifax, call them directly or do it on their websites. You may be asked to create a PIN code or they may generate one for you. Keep this code safe, because it’s the one you’ll use if you need to unlock your credit. A password manager is a great place to save your PIN codes.</p>
+            
+            
+      
+        </div>
+    </div>
+  </div>
+</section>
+    <footer>
+        <ul class="row-full-width">
+          <li class="footer-link-wrapper moz-link">
+            <a class="footer-link mozilla-logo-wrapper" href="https://www.mozilla.org" data-ga-link="" data-event-category="Utility & Outbound Links" data-event-label="Mozilla.org" target="_blank" rel="noopener"  aria-label="Open Mozilla.org in new window">
+              <svg class="Mozilla-logo" aria-hidden="true" viewBox="0 0 2000 571.9"><path fill="#ffffff" d="M0 0h2000v571.9H0z"/><path fill="#20123a" d="M1910.2 410.5c-3.9 1.1-7.2 1.7-10.5 1.7-11.7 0-17.2-5-17.2-19.4V284.1c0-57.1-45.5-84.9-99.3-84.9-41.1 0-63.2 5-107.1 22.7l-9.8 57.6 57.1 6.1 8.1-28.2c11.7-6.1 23.3-7.2 38.3-7.2 40.5 0 41.1 30.5 41.1 56v8.3c-12.8-1.7-27.2-2.2-41.1-2.2-57.1 0-116.5 14.4-116.5 76 0 52.1 41 71.6 77.1 71.6 40.5 0 66-24.4 80.4-49.9 3.3 30.5 21.6 49.9 54.9 49.9 15.5 0 31.6-4.4 44.9-11.7l-.4-37.7zm-153.6-1.6c-21.6 0-29.4-12.8-29.4-28.9 0-27.2 22.2-34.4 47.7-34.4 11.6 0 24.4 1.7 36.1 3.3-1.7 41.7-28.9 60-54.4 60zm-96.1-336.2l-108.2 381.7h-70.5L1590 72.7h70.5zm-145.3 0L1407 454.4h-70.4l108.2-381.7h70.4zm-300.4 131.5h74.9V294h-74.9v-89.8zm0 160.3h74.9v89.9h-74.9v-89.9zm-109-3.3l56.6 5.5-15.5 87.7H928.3l-7.2-37.7 137.6-158.1h-78.2l-11.1 38.8-51.6-5.6 8.9-87.7h219.7l5.6 37.7L1013.2 400h81l11.6-38.8zm-358.5-162c-89.9 0-134.3 60.5-134.3 133.7 0 79.9 53.3 127 130.4 127 79.9 0 137.6-50.5 137.6-130.4 0-69.9-43.9-130.3-133.7-130.3zM745.6 405c-38.8 0-58.8-33.3-58.8-76.6 0-47.2 22.7-74.3 59.4-74.3 33.8 0 61 22.7 61 73.2 0 47.7-24.4 77.7-61.6 77.7zm-197-5h33.3v54.4H477V313.5c0-43.3-14.4-59.9-42.7-59.9-34.4 0-48.3 24.4-48.3 59.4v87h33.3v54.4H314.5V313.5c0-43.3-14.4-59.9-42.7-59.9-34.4 0-48.3 24.4-48.3 59.4v87h47.7v54.4H118.7V400H152V258.5h-33.3v-54.4h104.8v37.7c15-26.6 41.1-42.7 76-42.7 36.1 0 69.3 17.2 81.6 53.8 13.9-33.3 42.2-53.8 81.6-53.8 44.9 0 86 27.2 86 86.5V400z"/></svg>        </a>
+          </li>
+          <li class="footer-link-wrapper">
+            <a class="footer-link" href="/about" data-ga-link="" data-event-category="Utility & Outbound Links" data-event-label="About Firefox Monitor"  rel="noopener">
+              About Firefox Monitor
+            </a>
+          </li>
+          <li class="footer-link-wrapper">
+            <a class="footer-link" href="https://support.mozilla.org/kb/firefox-monitor-faq" data-ga-link="" data-event-category="Utility & Outbound Links" data-event-label="Frequently Asked Questions"  rel="noopener">
+              Frequently Asked Questions
+            </a>
+          </li>
+          <li class="footer-link-wrapper">
+            <a class="footer-link" href="https://www.mozilla.org/privacy/firefox-monitor/?utm_campaign&#x3D;fx_monitor_downloads&amp;utm_content&#x3D;site-footer-link&amp;utm_medium&#x3D;referral&amp;utm_source&#x3D;monitor.firefox.com" data-ga-link="" data-event-category="Utility & Outbound Links" data-event-label="Terms &amp; Privacy"  rel="noopener">
+              Terms &amp; Privacy
+            </a>
+          </li>
+          <li class="footer-link-wrapper">
+            <a class="footer-link" href="https://github.com/mozilla/blurts-server" data-ga-link="" data-event-category="Utility & Outbound Links" data-event-label="GitHub"  rel="noopener">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </footer>  </body>
+</html>

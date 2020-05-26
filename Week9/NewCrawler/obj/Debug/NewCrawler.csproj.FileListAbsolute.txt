@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\NewCrawler\obj\Debug\NewCrawler.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\NewCrawler\obj\Debug\NewCrawler.Properties.Resources.resources
+C:\Users\Administrator\source\repos\NewCrawler\obj\Debug\NewCrawler.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\NewCrawler\obj\Debug\NewCrawler.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\NewCrawler\bin\Debug\NewCrawler.exe.config
+C:\Users\Administrator\source\repos\NewCrawler\bin\Debug\NewCrawler.exe
+C:\Users\Administrator\source\repos\NewCrawler\bin\Debug\NewCrawler.pdb
+C:\Users\Administrator\source\repos\NewCrawler\obj\Debug\NewCrawler.exe
+C:\Users\Administrator\source\repos\NewCrawler\obj\Debug\NewCrawler.pdb
+C:\Users\Administrator\source\repos\NewCrawler\obj\Debug\NewCrawler.Form1.resources
