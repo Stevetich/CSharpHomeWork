@@ -1,0 +1,20 @@
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\bin\Debug\Crawler - Winform.exe.config
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\bin\Debug\Crawler - Winform.exe
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\bin\Debug\Crawler - Winform.pdb
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler___Winform.Form1.resources
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler___Winform.Properties.Resources.resources
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.exe
+C:\Users\Administrator\Desktop\CSharpHomework-master\Week 9\爬虫 - Winform\Crawler - Winform\obj\Debug\Crawler - Winform.pdb
+C:\Users\Administrator\Desktop\NewCrawlerForm\bin\Debug\Crawler - Winform.exe.config
+C:\Users\Administrator\Desktop\NewCrawlerForm\bin\Debug\Crawler - Winform.exe
+C:\Users\Administrator\Desktop\NewCrawlerForm\bin\Debug\Crawler - Winform.pdb
+C:\Users\Administrator\Desktop\NewCrawlerForm\obj\Debug\Crawler - Winform.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\NewCrawlerForm\obj\Debug\Crawler___Winform.Form1.resources
+C:\Users\Administrator\Desktop\NewCrawlerForm\obj\Debug\Crawler___Winform.Properties.Resources.resources
+C:\Users\Administrator\Desktop\NewCrawlerForm\obj\Debug\Crawler - Winform.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\NewCrawlerForm\obj\Debug\Crawler - Winform.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\NewCrawlerForm\obj\Debug\Crawler - Winform.exe
+C:\Users\Administrator\Desktop\NewCrawlerForm\obj\Debug\Crawler - Winform.pdb
